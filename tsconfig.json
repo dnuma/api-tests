@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6", 
+    "module": "CommonJS", 
+    "strict": true, 
+    "esModuleInterop": true, 
+    "skipLibCheck": true, 
+    "outDir": "./dist", 
+    "rootDir": "./src" , 
+    "baseUrl": "./",
+    "paths": {
+      "@@/*": ["./*"],
+      "@utils/*": ["src/utils/*"],
+      "@pages/*": ["src/pages/*"],
+      "@tools/*": ["src/tools/*"],
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*"]
+}
